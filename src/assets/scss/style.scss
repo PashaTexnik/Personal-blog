@@ -1,4 +1,4 @@
-@import "vendor/reset.css";
+@import "vendor/reset";
 @import "vars";
 
 body {
@@ -10,3 +10,17 @@ body {
     "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box
+}
+
+/* Blocks */
+@import "blocks/page";
+@import "blocks/sidebar";
+@import "blocks/main";
+@import "blocks/header";
+@import "blocks/container";
+
+

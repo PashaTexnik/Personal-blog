@@ -1,0 +1,10 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: $z-index-sidebar;
+    width: $sidebar-width;
+    height: 100vh;
+
+    background-color: #cccccc;
+}
