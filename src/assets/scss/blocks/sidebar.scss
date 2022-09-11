@@ -7,9 +7,26 @@
     width: $sidebar-width;
     height: 100vh;
 
+   
+
+
     background-color: $primary;
     box-shadow: 5px 0 15px rgba(#050505, .1);
 }
+
+::-webkit-scrollbar {
+    width: 5px;
+ 
+}
+// ::-webkit-scrollbar-button {
+//     background: #ccc
+// }
+// ::-webkit-scrollbar-track-piece {
+//     background: #888
+// }
+// ::-webkit-scrollbar-thumb {
+//     background: #eee
+// }​
 
 .sidebar_header {
     height: 180px;
